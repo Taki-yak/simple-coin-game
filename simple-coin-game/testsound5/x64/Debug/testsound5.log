@@ -1,0 +1,39 @@
+﻿  BitmapHandler.cpp
+  BitmapObject.cpp
+  main.cpp
+  Player1.cpp
+  SpriteObject.cpp
+  Generating Code...
+BitmapHandler.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: struct SDL_Texture * __cdecl BitmapHandler::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Renderer *)" (?loadFromFile@BitmapHandler@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+main.obj : error LNK2001: unresolved external symbol SDL_GetError
+BitmapHandler.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: void __cdecl BitmapHandler::destroyBitmap(struct SDL_Texture *)" (?destroyBitmap@BitmapHandler@@QEAAXPEAUSDL_Texture@@@Z)
+BitmapObject.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+SpriteObject.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+BitmapHandler.obj : error LNK2019: unresolved external symbol IMG_LoadTexture referenced in function "public: struct SDL_Texture * __cdecl BitmapHandler::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Renderer *)" (?loadFromFile@BitmapHandler@@QEAAPEAUSDL_Texture@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+BitmapObject.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function "public: virtual void __cdecl BitmapObject::draw(int,int,struct SDL_Rect *)" (?draw@BitmapObject@@UEAAXHHPEAUSDL_Rect@@@Z)
+BitmapObject.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: virtual void __cdecl BitmapObject::draw(int,int,struct SDL_Rect *)" (?draw@BitmapObject@@UEAAXHHPEAUSDL_Rect@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_LoadWAV referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_PlayChannel referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_CloseAudio referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\taki\sdl\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\taki\sdl\SDL2_mixer-devel-2.8.0-VC\SDL2_mixer-2.8.0\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\taki\sdl\SDL2-devel-2.30.8-VC\SDL2-2.30.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\taki\sdl\SDL2-devel-2.30.8-VC\SDL2-2.30.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\taki\sdl\SDL2-devel-2.30.8-VC\SDL2-2.30.8\lib\x86\SDL2test.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\taki\POLAND\POLAND\3rd senester\Basics of the computer graphics 1\testsound5\x64\Debug\testsound5.exe : fatal error LNK1120: 24 unresolved externals
